@@ -14,7 +14,7 @@ To deploy and interact with this contract, you can use Remix Ethereum IDE, a pow
 
 2. **Create a New File**: Click on the '+' icon in the file explorer panel to create a new file.
 
-3. **Copy and Paste Contract Code**: Copy the Solidity code of the `ErrorHandlingExample.sol` contract provided in this repository and paste it into the new file in Remix.
+3. **Copy and Paste Contract Code**: Copy the Solidity code of the `ErrorHandling.sol` contract provided in this repository and paste it into the new file in Remix.
 
 4. **Compile the Contract**: In the Remix interface, go to the 'Solidity Compiler' tab and compile the contract by clicking the 'Compile ErrorHandlingExample.sol' button.
 
@@ -41,12 +41,12 @@ The `revert()` function is used to revert the state changes made by a transactio
 The `assert()` function is used to check for internal errors and conditions that should never occur. If the condition evaluates to `false`, the transaction is reverted, indicating a bug in the contract's logic. In this contract, `assert()` is used in the `checkValue()` function to ensure that the value stored is always greater than zero. If this condition fails, it indicates a critical issue in the contract's implementation.
 
 
-**Authors**
+## **Authors**
 
 - Ryan Lester Aban
 - email: 422004489@ntc.edu.ph
 
-**License**
+## **License**
 This project is licensed under the Ryan Lester Aban License
 
 
